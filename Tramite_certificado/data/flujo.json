@@ -1,0 +1,14 @@
+{
+    "flujo": "F2",
+    "nombre": "Emisión de Certificados",
+    "procesos": [
+        { "id": "P1", "nombre": "Solicitar Certificado", "pantalla": "solicitar_certificado", "rol": "estudiante", "siguiente": "P2" },
+        { "id": "P2", "nombre": "Verificar Pago en Caja", "pantalla": "verificar_pago", "rol": "kardex", "siguiente": null },
+        { "id": "P3", "nombre": "Emitir Certificado", "pantalla": "entregar_certificado", "rol": "kardex", "siguiente": "P5" },
+        { "id": "P4", "nombre": "Devolver por error de pago", "pantalla": "devolver_pago", "rol": "kardex", "siguiente": "P1" },
+        { "id": "P5", "nombre": "Notificar entrega al estudiante", "pantalla": "notificar_certificado", "rol": "estudiante", "siguiente": null }
+    ],
+    "condiciones": [
+        { "proceso": "P2", "verdad": "P3", "falso": "P4" }
+    ]
+}

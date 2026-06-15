@@ -1,0 +1,177 @@
+[
+    {
+        "ticket": 1,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-10 22:20:08",
+        "fechafinal": "2026-06-10 22:20:14"
+    },
+    {
+        "ticket": 1,
+        "flujo": "F2",
+        "proceso": "P2",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-10 22:20:14",
+        "fechafinal": "2026-06-10 22:20:24",
+        "observaciones": null
+    },
+    {
+        "ticket": 3,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-10 22:20:16",
+        "fechafinal": "2026-06-10 22:20:44"
+    },
+    {
+        "ticket": 1,
+        "flujo": "F2",
+        "proceso": "P4",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-10 22:20:24",
+        "fechafinal": "2026-06-10 22:20:32",
+        "observaciones": null
+    },
+    {
+        "ticket": 1,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-10 22:20:32",
+        "fechafinal": "2026-06-10 22:20:39",
+        "observaciones": "Trámite cancelado definitivamente por el estudiante."
+    },
+    {
+        "ticket": 3,
+        "flujo": "F2",
+        "proceso": "P2",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-10 22:20:44",
+        "fechafinal": "2026-06-10 22:20:49",
+        "observaciones": null
+    },
+    {
+        "ticket": 3,
+        "flujo": "F2",
+        "proceso": "P3",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-10 22:20:49",
+        "fechafinal": "2026-06-10 22:20:51",
+        "observaciones": null
+    },
+    {
+        "ticket": 3,
+        "flujo": "F2",
+        "proceso": "P5",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-10 22:20:51",
+        "fechafinal": "2026-06-10 22:20:55",
+        "observaciones": null
+    },
+    {
+        "ticket": 9,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-11 01:51:14",
+        "fechafinal": "2026-06-11 01:52:07"
+    },
+    {
+        "ticket": 9,
+        "flujo": "F2",
+        "proceso": "P2",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-11 01:52:07",
+        "fechafinal": "2026-06-11 01:52:19",
+        "observaciones": null
+    },
+    {
+        "ticket": 9,
+        "flujo": "F2",
+        "proceso": "P4",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-11 01:52:19",
+        "fechafinal": "2026-06-11 01:52:24",
+        "observaciones": null
+    },
+    {
+        "ticket": 9,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-11 01:52:24",
+        "fechafinal": "2026-06-11 01:52:31",
+        "observaciones": "Trámite cancelado definitivamente por el estudiante."
+    },
+    {
+        "ticket": 13,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-12 21:32:13",
+        "fechafinal": "2026-06-12 21:32:18"
+    },
+    {
+        "ticket": 13,
+        "flujo": "F2",
+        "proceso": "P2",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-12 21:32:18",
+        "fechafinal": "2026-06-12 21:32:31",
+        "observaciones": null
+    },
+    {
+        "ticket": 13,
+        "flujo": "F2",
+        "proceso": "P3",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-12 21:32:31",
+        "fechafinal": "2026-06-12 21:32:33",
+        "observaciones": null
+    },
+    {
+        "ticket": 13,
+        "flujo": "F2",
+        "proceso": "P5",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-12 21:32:33",
+        "fechafinal": "2026-06-12 21:32:38",
+        "observaciones": null
+    },
+    {
+        "ticket": 17,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-12 21:32:39",
+        "fechafinal": "2026-06-12 21:32:46"
+    },
+    {
+        "ticket": 17,
+        "flujo": "F2",
+        "proceso": "P2",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-12 21:32:46",
+        "fechafinal": "2026-06-12 21:32:51",
+        "observaciones": null
+    },
+    {
+        "ticket": 17,
+        "flujo": "F2",
+        "proceso": "P4",
+        "usuario": "kardex",
+        "fechainicial": "2026-06-12 21:32:51",
+        "fechafinal": "2026-06-12 21:32:59",
+        "observaciones": null
+    },
+    {
+        "ticket": 17,
+        "flujo": "F2",
+        "proceso": "P1",
+        "usuario": "estudiante",
+        "fechainicial": "2026-06-12 21:32:59",
+        "fechafinal": "2026-06-12 21:33:07",
+        "observaciones": "Trámite cancelado definitivamente por el estudiante."
+    }
+]

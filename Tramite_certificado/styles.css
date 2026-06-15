@@ -1,0 +1,38 @@
+:root {
+  --azul: #1a3a6c; --azul-claro: #2256a8; --azul-suave: #e8f0fb;
+  --verde: #0f6e56; --verde-claro: #e1f5ee;
+  --texto: #1a1a2e; --texto-secundario: #5a5a7a; --borde: #d0d7e3;
+}
+* { box-sizing: border-box; font-family: 'Segoe UI', system-ui, sans-serif; margin: 0; padding: 0; }
+body { background: #edf1f7; color: var(--texto); }
+
+.header { background: linear-gradient(135deg, #1a3a6c 0%, #2256a8 100%); color: white; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.header-inner { max-width: 1000px; margin: 0 auto; display: flex; align-items: center; gap: 15px; }
+.logo-umsa { width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+.main-container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+
+.card { background: white; border-radius: 12px; border: 1px solid var(--borde); box-shadow: 0 2px 8px rgba(0,0,0,0.05); padding: 25px; margin-bottom: 20px; }
+.card-title { font-size: 18px; font-weight: 600; margin-bottom: 15px; color: var(--azul); border-bottom: 2px solid var(--azul-suave); padding-bottom: 10px; }
+
+.btn { padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; font-weight: 600; text-decoration: none; display: inline-block; font-size: 14px; }
+.btn-primary { background: var(--azul-claro); color: white; }
+.btn-primary:hover { background: var(--azul); }
+.btn-success { background: var(--verde); color: white; }
+.btn-outline { background: transparent; border: 1px solid var(--borde); color: var(--texto); }
+
+table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 14px; }
+th { background: var(--azul-suave); padding: 12px; text-align: left; color: var(--azul); font-weight: 600; }
+td { padding: 12px; border-bottom: 1px solid var(--borde); }
+tr:hover { background: #f8fafc; }
+
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; color: var(--texto-secundario); }
+.form-group input, .form-group textarea, .form-group select { width: 100%; padding: 10px; border: 1px solid var(--borde); border-radius: 8px; font-family: inherit; }
+
+.badge { padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; background: var(--verde-claro); color: var(--verde); }
+.badge-pending { background: #fff3cd; color: #856404; }
+
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+.stat-box { background: white; padding: 20px; border-radius: 12px; text-align: center; border: 1px solid var(--borde); border-bottom: 4px solid var(--azul-claro); }
+.stat-box h3 { font-size: 28px; color: var(--azul); margin-bottom: 5px; }
+.stat-box p { font-size: 13px; color: var(--texto-secundario); text-transform: uppercase; }
